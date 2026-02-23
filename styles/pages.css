@@ -1,0 +1,98 @@
+.body {
+    background-color: rgb(226, 226, 233);
+}
+input {
+    border: 2px solid #120461;
+    border-radius: 0.4rem;
+    height: 3rem;
+    margin-block-end: 20px;
+    text-align: center;
+}
+.addForm {
+    background-color: rgb(246, 246, 255);
+    padding: 3rem;
+}
+button {
+    border: 2px solid #120461;
+    background-color: #120461;
+    color: rgb(226, 226, 233);
+    border-radius: 10px;
+    height: 3em;
+    padding: 0;
+    margin-block-start: 1rem;
+}
+button:hover {
+    transition: ease-out 300ms;
+    background-color: #4933c3;
+    border: #4933c3;
+}
+button:active {
+    background-color: rgb(246, 246, 255);
+    color:  #28168a;
+}
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.client-table th {
+  background-color: #221584;
+  color: #ffffff;
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+}
+
+
+.client-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.client-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+.client-table tr:hover {
+  background-color: #f1f1f1;
+  transition: 0.2s ease;
+}
+
+.edit-btn {
+  text-decoration: none;
+  padding: 6px 12px;
+  background-color: #120461;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: underline;
+  width: 3rem;
+}
+
+.edit-btn:hover {
+  background-color: #4933c3;
+  color:rgb(246, 246, 255);
+}
+.addClientbtn {
+    margin-block-start: 3rem;
+    background-color: #120461;
+    color: rgb(246, 246, 255);
+    width:10rem;
+    height: 2rem;
+    border-radius: 20px;
+    border:2px solid #120461;
+    text-align: center;
+}
+.addClientbtn:hover {
+    transition: ease-out 300ms;
+    background-color: #4933c3;
+    border: #4933c3;
+}
+.addClientbtn:active {
+    background-color: rgb(246, 246, 255);
+    color:  #28168a;
+}

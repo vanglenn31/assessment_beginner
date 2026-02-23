@@ -31,9 +31,9 @@ $revenue = $revRow['s'];
   <p class="text-center m-10">
     Quick links:
     <a class="relative inline-block text-gray-700 transition-colors duration-300 hover:text-blue-600 after:block after:h-[2px] after:bg-blue-600 after:scale-x-0 after:origin-left
-      after:transition-transform after:duration-300 hover:after:scale-x-100" href="/assessment_beginner/pages/clients_add.php">Add Client</a> |
+      after:transition-transform after:duration-300 hover:after:scale-x-100" href="./pages/clients_add.php">Add Client</a> |
     <a class="relative inline-block text-gray-700 transition-colors duration-300 hover:text-blue-600 after:block after:h-[2px] after:bg-blue-600 after:scale-x-0 after:origin-left
-      after:transition-transform after:duration-300 hover:after:scale-x-100" href="/assessment_beginner/pages/bookings_create.php">Create Booking</a>
+      after:transition-transform after:duration-300 hover:after:scale-x-100" href="./pages/bookings_create.php">Create Booking</a>
   </p>
  
 </body>
