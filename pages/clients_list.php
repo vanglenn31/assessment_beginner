@@ -14,7 +14,7 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
     <div class="size-fit w-3/4 rounded-3xl shadow-lg text-lg text-black flex flex-col text-center items-center addForm m-10">
       <h2 class="text-4xl font-serif font-bold text-center mb-6">Clients</h2>
       
-      <table class="client-table" border="1" cellpadding="8">
+      <table class="show-data" border="1" cellpadding="8">
         <tr>
           <th>ID</th><th>Name</th><th>Email</th><th>Phone</th><th>Action</th>
         </tr>

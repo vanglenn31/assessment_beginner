@@ -22,14 +22,16 @@ if (isset($_POST['save'])) {
 ?>
 <!doctype html>
 <html>
-<head><meta charset="utf-8"><title>Add Client</title></head>
+<head><meta charset="utf-8"><title>Add Client</title>
 <link rel="stylesheet" href="../../assesment/styles/pages.css">
+</head>
+
 <body class="body">
 <?php include "../nav.php"; ?>
 
   <div class="flex justify-center">
     <div class="h-1/2 w-lg rounded-3xl shadow-lg text-lg text-black flex flex-col text-center items-center addForm m-10">
-      <h2 class="text-4xl font-serif font-bold text-center ">Add Client</h2>
+      <h2 class="text-4xl font-serif font-bold text-center">Add Client</h2>
       <p style="color:red;"><?php echo $message; ?></p>
   
 

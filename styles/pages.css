@@ -30,7 +30,7 @@ button:active {
     background-color: rgb(246, 246, 255);
     color:  #28168a;
 }
-.client-table {
+.show-data {
   width: 100%;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
@@ -38,7 +38,7 @@ button:active {
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-.client-table th {
+.show-data th {
   background-color: #221584;
   color: #ffffff;
   text-align: left;
@@ -47,17 +47,17 @@ button:active {
 }
 
 
-.client-table td {
+.show-data td {
   padding: 12px;
   border-bottom: 1px solid #e0e0e0;
 }
 
-.client-table tr:nth-child(even) {
+.show-data tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
 
-.client-table tr:hover {
+.show-data tr:hover {
   background-color: #f1f1f1;
   transition: 0.2s ease;
 }
@@ -95,4 +95,11 @@ button:active {
 .addClientbtn:active {
     background-color: rgb(246, 246, 255);
     color:  #28168a;
+}
+textarea, select {
+  border: 2px solid #120461;
+  border-radius: 0.4rem;
+}
+select {
+  height: 3rem;
 }
