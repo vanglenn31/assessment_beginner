@@ -32,7 +32,7 @@ if (isset($_POST['update'])) {
         
             <h2 class="text-4xl font-serif font-bold text-center mb-6">Edit Service</h2>
             
-            <form method="post" class=" flex flex-col">
+            <form method="post" class="flex flex-col">
             <label>Service Name</label>
             <input class="w-sm" type="text" name="service_name" value="<?php echo $service['service_name']; ?>">
             
