@@ -96,6 +96,30 @@ button:active {
     background-color: rgb(246, 246, 255);
     color:  #28168a;
 }
+.deactivate-btn {
+  text-decoration: none;
+  padding: 6px 12px;
+  background-color: #b00020; /* red */
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 5rem;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+}
+
+.deactivate-btn:hover {
+  background-color: #d32f2f;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.deactivate-btn:active {
+  background-color: #7f0000;
+}
+
 textarea, select {
   border: 2px solid #120461;
   border-radius: 0.4rem;
