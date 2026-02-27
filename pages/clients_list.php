@@ -5,7 +5,6 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
 <!doctype html>
 <html>
 <head><meta charset="utf-8"><title>Clients</title>
-<link rel="stylesheet" href="../../assesment/styles/pages.css">
 </head>
 
 <body class="body">

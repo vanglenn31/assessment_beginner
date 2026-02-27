@@ -4,8 +4,7 @@ $result = mysqli_query($conn, "SELECT * FROM services ORDER BY service_id DESC")
 ?>
 <!doctype html>
 <html>
-<head><meta charset="utf-8"><title>Services</title>
-<link rel="stylesheet" href="../../assesment/styles/pages.css"></head>
+<head><meta charset="utf-8"><title>Services</title></head>
 <body class="body">
 <?php include "../nav.php"; ?>
     <div class="flex justify-center">

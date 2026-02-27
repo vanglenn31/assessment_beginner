@@ -23,9 +23,7 @@ if (isset($_POST['save'])) {
 <!doctype html>
 <html>
 <head><meta charset="utf-8"><title>Add Client</title>
-<link rel="stylesheet" href="../../assesment/styles/pages.css">
 </head>
-
 <body class="body">
 <?php include "../nav.php"; ?>
 

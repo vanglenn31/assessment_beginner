@@ -22,7 +22,6 @@ if (isset($_POST['update'])) {
 <!doctype html>
 <html>
 <head><meta charset="utf-8"><title>Edit Service</title>
-<link rel="stylesheet" href="../../assesment/styles/pages.css">
 </head>
 <body class="body">
 <?php include "../nav.php"; ?>

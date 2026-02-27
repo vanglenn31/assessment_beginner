@@ -33,17 +33,17 @@ $result = mysqli_query($conn, $sql);
               <td><?php echo $b['booking_id']; ?></td>
               <td><?php echo $b['client_name']; ?></td>
               <td><?php echo $b['service_name']; ?></td>
-              <td><?php echo $b['booking_date']; ?></td>
+              <td><?php echo $b['booking_date']; ?></td> 
               <td><?php echo $b['hours']; ?></td>
               <td>₱<?php echo number_format($b['total_cost'],2); ?></td>
               <td><?php echo $b['status']; ?></td>
               <td>
-                <a href="payment_process.php?booking_id=<?php echo $b['booking_id']; ?>">Process Payment</a>
+                <a class="edit-btn" href="payment_process.php?booking_id=<?php echo $b['booking_id']; ?>">Process Payment</a>
               </td>
             </tr>
           <?php } ?>
         </table>
-        <p class="addClientbtn"><a href="bookings_create.php">+ Create Booking</a></p>
+        <p class="addClientbtn" ><a href="bookings_create.php">+ Create Booking</a></p>
     </div>
   </div>
 </body>
