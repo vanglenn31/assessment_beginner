@@ -1,4 +1,11 @@
 <?php
+session_start();
+ 
+// If not logged in, redirect to login
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php");
+    exit();
+} 
 include "db.php";
  
 $clients = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(*) AS c FROM clients"))['c'];
@@ -19,6 +26,7 @@ $revenue = $revRow['s'];
   <?php include "nav.php"; ?>
   
   <h2 class="text-4xl font-serif font-bold text-center m-6">Dashboard</h2>
+  <h3 class="text-2xl font-serif font-bold text-center mb-6">Welcome, <?php echo $_SESSION['username']; ?>!</h3>
   <div class="flex justify-center ">
     <ul class="h-60 w-1/2 rounded-sm shadow-lg text-lg text-sky-100 grid grid-cols-2 gap-5 p-6 list justify-items-center p-8" >
       <li class="list-item rounded-lg p-2 w-60 ">Total Clients: <p class="text-end text-2xl pr-4"><b><?php echo $clients; ?></b></p></li>

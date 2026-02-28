@@ -1,0 +1,94 @@
+/* Page Background */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 226, 233); /* secondary */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center Container */
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Login Card */
+.login-card {
+    background-color: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Title */
+.login-card h2 {
+    margin-bottom: 25px;
+    color: rgb(11, 3, 75); /* primary */
+}
+
+/* Input Group */
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: rgb(11, 3, 75);
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+/* Input Focus Effect */
+.input-group input:focus {
+    outline: none;
+    border-color: rgb(11, 3, 75);
+    box-shadow: 0 0 0 2px rgba(11, 3, 75, 0.2);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(11, 3, 75); /* primary */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(30, 15, 120);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Error Message */
+.error {
+    background-color: #ffe5e5;
+    color: red;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
